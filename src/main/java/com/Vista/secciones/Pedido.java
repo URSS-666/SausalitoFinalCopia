@@ -954,6 +954,61 @@ public class Pedido extends javax.swing.JPanel {
         PanelCubierta.setVisible(false);
     }
 
+    private void BotonTerneraActionPerformed(java.awt.event.ActionEvent evt) {
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+    }
+
+    private void BotonCerdoActionPerformed(java.awt.event.ActionEvent evt) {
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+    }
+
+    private void BotonCorderoActionPerformed(java.awt.event.ActionEvent evt) {
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+    }
+
+    private void BotonCarnesMixtasActionPerformed(java.awt.event.ActionEvent evt) {
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+    }
+
+    private void BotonTricarneActionPerformed(java.awt.event.ActionEvent evt) {
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+    }
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BotonAdicionales;
     private javax.swing.JButton BotonBebidas;
