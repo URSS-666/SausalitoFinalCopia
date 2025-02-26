@@ -7,6 +7,7 @@ package Secciones.Menu;
 import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
+import java.awt.Color;
 
 /**
  *
@@ -170,23 +171,58 @@ public class Carnes extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BotonTerneraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonTerneraActionPerformed
-        // TODO add your handling code here:
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
     }//GEN-LAST:event_BotonTerneraActionPerformed
 
     private void BotonCerdoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonCerdoActionPerformed
-        // TODO add your handling code here:
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
     }//GEN-LAST:event_BotonCerdoActionPerformed
 
     private void BotonCorderoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonCorderoActionPerformed
-        // TODO add your handling code here:
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
     }//GEN-LAST:event_BotonCorderoActionPerformed
 
     private void BotonCarnesMixtasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonCarnesMixtasActionPerformed
-        // TODO add your handling code here:
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
     }//GEN-LAST:event_BotonCarnesMixtasActionPerformed
 
     private void BotonTricarneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonTricarneActionPerformed
-        // TODO add your handling code here:
+        Cubierta1.setBackground(new Color(230, 230, 230, 240));
+        PanelCubierta.setVisible(true);
+        PanelCubierta.removeAll();
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
+        PanelCubierta.add(Cubierta1);
+        PanelCubierta.repaint();
+        PanelCubierta.revalidate();
     }//GEN-LAST:event_BotonTricarneActionPerformed
 
 
