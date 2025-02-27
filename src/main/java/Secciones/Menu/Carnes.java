@@ -7,6 +7,7 @@ package Secciones.Menu;
 import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
+import com.Vista.secciones.Pedido;
 
 /**
  *
@@ -170,7 +171,7 @@ public class Carnes extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void BotonTerneraActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonTerneraActionPerformed
-        // TODO add your handling code here:
+        displayPedidoTabbedPane();
     }//GEN-LAST:event_BotonTerneraActionPerformed
 
     private void BotonCerdoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotonCerdoActionPerformed
@@ -189,6 +190,10 @@ public class Carnes extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_BotonTricarneActionPerformed
 
+    private void displayPedidoTabbedPane() {
+        Pedido pedido = new Pedido();
+        pedido.setVisible(true);
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton BotonCarnesMixtas;
