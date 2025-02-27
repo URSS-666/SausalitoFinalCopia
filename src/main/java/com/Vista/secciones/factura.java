@@ -286,17 +286,6 @@ public class factura extends javax.swing.JFrame {
                 .addContainerGap(39, Short.MAX_VALUE))
         );
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
@@ -335,6 +324,26 @@ public class factura extends javax.swing.JFrame {
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
+
+    private void BotonTerneraActionPerformed(java.awt.event.ActionEvent evt) {
+        btnPedidoActionPerformed(evt);
+    }
+
+    private void BotonCerdoActionPerformed(java.awt.event.ActionEvent evt) {
+        btnPedidoActionPerformed(evt);
+    }
+
+    private void BotonCorderoActionPerformed(java.awt.event.ActionEvent evt) {
+        btnPedidoActionPerformed(evt);
+    }
+
+    private void BotonCarnesMixtasActionPerformed(java.awt.event.ActionEvent evt) {
+        btnPedidoActionPerformed(evt);
+    }
+
+    private void BotonTricarneActionPerformed(java.awt.event.ActionEvent evt) {
+        btnPedidoActionPerformed(evt);
+    }
 
     /**
      * @param args the command line arguments
