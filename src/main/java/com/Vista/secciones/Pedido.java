@@ -31,6 +31,11 @@ public class Pedido extends javax.swing.JPanel {
         Seccion.revalidate();
         Seccion.repaint();
     }
+    
+    public javax.swing.JTabbedPane getPanelCubierta() {
+        return PanelCubierta;
+    }
+    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
